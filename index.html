@@ -11,20 +11,8 @@
       <h2>HABITS</h2>
       <p></p>
       <form class="add-habit">
-        <input
-          class="habit"
-          type="text"
-          name="habit"
-          placeholder="Enter Habit Name"
-          required
-        />
-        <input
-          type="number"
-          name="reps"
-          placeholder="# of Repetitions"
-          min="1"
-          required
-        />
+        <input class="habit" type="text" name="habit" placeholder="Enter Habit Name" required />
+        <input type="number" name="reps" placeholder="No. of Repetitions" min="1" required />
         <div class="frequency">
           <label for="timeframe">Frequency: </label>
           <select name="timeframe" id="timeframe">
@@ -34,7 +22,7 @@
             <option value="Yearly">Yearly</option>
           </select>
         </div>
-        <input type="submit" value="+ Add Habit" />
+        <input class='btn' type="submit" value="+ Add Habit" />
       </form>
 
       <ul class="habits">
@@ -42,6 +30,6 @@
       </ul>
     </div>
 
-    <script src="./app.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
